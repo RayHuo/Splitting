@@ -1,0 +1,65 @@
+IO/input/nva2_10.txt.in : 
+XTime = 0.010000
+YTime = 0.040000
+XTime + YTime = 0.050000
+
+IO/input/nva2_15.txt.in : 
+XTime = 0.030000
+YTime = 0.280000
+XTime + YTime = 0.310000
+
+IO/input/nva2_20.txt.in : 
+XTime = 0.060000
+YTime = 1.210000
+XTime + YTime = 1.270000
+
+IO/input/nva2_25.txt.in : 
+XTime = 0.130000
+YTime = 3.540000
+XTime + YTime = 3.670000
+
+IO/input/nva2_30.txt.in : 
+XTime = 0.240000
+YTime = 9.350000
+XTime + YTime = 9.590000
+
+IO/input/nva2_35.txt.in : 
+XTime = 0.390000
+YTime = 20.300000
+XTime + YTime = 20.690000
+
+IO/input/nva2_3.txt.in : 
+XTime = 0.000000
+YTime = 0.000000
+XTime + YTime = 0.000000
+
+IO/input/nva2_4.txt.in : 
+XTime = 0.000000
+YTime = 0.000000
+XTime + YTime = 0.000000
+
+IO/input/nva2_5.txt.in : 
+XTime = -0.000000
+YTime = 0.000000
+XTime + YTime = -0.000000
+
+IO/input/nva2_6.txt.in : 
+XTime = 0.000000
+YTime = 0.010000
+XTime + YTime = 0.010000
+
+IO/input/nva2_7.txt.in : 
+XTime = 0.000000
+YTime = 0.010000
+XTime + YTime = 0.010000
+
+IO/input/nva2_8.txt.in : 
+XTime = 0.000000
+YTime = 0.010000
+XTime + YTime = 0.010000
+
+IO/input/nva2_9.txt.in : 
+XTime = 0.010000
+YTime = 0.020000
+XTime + YTime = 0.030000
+

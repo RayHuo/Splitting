@@ -1,0 +1,62 @@
+initialnode(0).
+vertex(0).
+vertex(1).
+vertex(2).
+vertex(3).
+vertex(4).
+vertex(5).
+arc(0,1).
+arc(1,0).
+arc(0,2).
+arc(2,0).
+arc(1,2).
+arc(2,1).
+arc(3,4).
+arc(4,3).
+arc(3,5).
+arc(5,3).
+arc(4,5).
+arc(5,4).
+arc(5,0).
+arc(2,4).
+hc(2,4) :- not otherroute(2,4).
+hc(5,0) :- not otherroute(5,0).
+hc(2,1) :- not otherroute(2,1).
+hc(1,2) :- not otherroute(1,2).
+hc(2,0) :- not otherroute(2,0).
+hc(0,2) :- not otherroute(0,2).
+hc(1,0) :- not otherroute(1,0).
+hc(0,1) :- not otherroute(0,1).
+otherroute(2,4) :- hc(2,1).
+otherroute(2,4) :- hc(2,0).
+otherroute(2,1) :- hc(2,4).
+otherroute(2,1) :- hc(2,0).
+otherroute(1,2) :- hc(1,0).
+otherroute(2,0) :- hc(2,4).
+otherroute(2,0) :- hc(2,1).
+otherroute(0,2) :- hc(0,1).
+otherroute(1,0) :- hc(1,2).
+otherroute(0,1) :- hc(0,2).
+otherroute(5,0) :- hc(2,0).
+otherroute(5,0) :- hc(1,0).
+otherroute(2,1) :- hc(0,1).
+otherroute(1,2) :- hc(0,2).
+otherroute(2,0) :- hc(5,0).
+otherroute(2,0) :- hc(1,0).
+otherroute(0,2) :- hc(1,2).
+otherroute(1,0) :- hc(5,0).
+otherroute(1,0) :- hc(2,0).
+otherroute(0,1) :- hc(2,1).
+reached(2) :- hc(0,2).
+reached(1) :- hc(0,1).
+reached(2) :- hc(1,2),reached(1).
+reached(0) :- hc(1,0),reached(1).
+reached(1) :- hc(2,1),reached(2).
+reached(0) :- hc(2,0),reached(2).
+ :- not reached(2).
+ :- not reached(1).
+ :- not reached(0).
+reached(0) :- hc(5,0).
+ :- not hc(2,4).
+ :- not hc(5,0).
+ :- not reached(2).

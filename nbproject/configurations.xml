@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>headfiles/DependenceGraph.h</itemPath>
+      <itemPath>headfiles/Rule.h</itemPath>
+      <itemPath>headfiles/Utils.h</itemPath>
+      <itemPath>headfiles/Vocabulary.h</itemPath>
+      <itemPath>headfiles/structs.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="IO" displayName="IO" projectFiles="true">
+      <logicalFolder name="counts" displayName="counts" projectFiles="true">
+        <logicalFolder name="hold" displayName="hold" projectFiles="true">
+          <itemPath>IO/counts/hold/channelRoute3.in</itemPath>
+          <itemPath>IO/counts/hold/duthen-990602.36.steps.10.asp.in</itemPath>
+          <itemPath>IO/counts/hold/duthen-990602.50.steps.9.asp.in</itemPath>
+          <itemPath>IO/counts/hold/output_random10.lp.txt</itemPath>
+          <itemPath>IO/counts/hold/output_random26.lp.txt</itemPath>
+          <itemPath>IO/counts/hold/output_random9.lp.txt</itemPath>
+          <itemPath>IO/counts/hold/random5.lp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="keep" displayName="keep" projectFiles="true">
+          <itemPath>IO/counts/keep/channelRoute3.in</itemPath>
+          <itemPath>IO/counts/keep/duthen-990602.36.steps.10.asp.in</itemPath>
+          <itemPath>IO/counts/keep/duthen-990602.50.steps.9.asp.in</itemPath>
+          <itemPath>IO/counts/keep/output_random10.lp.txt</itemPath>
+          <itemPath>IO/counts/keep/output_random26.lp.txt</itemPath>
+          <itemPath>IO/counts/keep/output_random9.lp.txt</itemPath>
+          <itemPath>IO/counts/keep/sokoban.in</itemPath>
+        </logicalFolder>
+        <itemPath>IO/counts/3lp200</itemPath>
+        <itemPath>IO/counts/9inTmp</itemPath>
+        <itemPath>IO/counts/Blocksworld</itemPath>
+        <itemPath>IO/counts/Sokoban</itemPath>
+        <itemPath>IO/counts/Toast-variableWord</itemPath>
+        <itemPath>IO/counts/channelRouting</itemPath>
+        <itemPath>IO/counts/clumpy</itemPath>
+        <itemPath>IO/counts/labyin</itemPath>
+        <itemPath>IO/counts/random</itemPath>
+      </logicalFolder>
+      <logicalFolder name="input" displayName="input" projectFiles="true">
+        <itemPath>IO/input/nva2_10.txt.in</itemPath>
+        <itemPath>IO/input/nva2_11.txt.in</itemPath>
+        <itemPath>IO/input/nva2_12.txt.in</itemPath>
+        <itemPath>IO/input/nva2_13.txt.in</itemPath>
+        <itemPath>IO/input/nva2_14.txt.in</itemPath>
+        <itemPath>IO/input/nva2_15.txt.in</itemPath>
+        <itemPath>IO/input/nva2_16.txt.in</itemPath>
+        <itemPath>IO/input/nva2_17.txt.in</itemPath>
+        <itemPath>IO/input/nva2_18.txt.in</itemPath>
+        <itemPath>IO/input/nva2_19.txt.in</itemPath>
+        <itemPath>IO/input/nva2_20.txt.in</itemPath>
+        <itemPath>IO/input/nva2_21.txt.in</itemPath>
+        <itemPath>IO/input/nva2_22.txt.in</itemPath>
+        <itemPath>IO/input/nva2_23.txt.in</itemPath>
+        <itemPath>IO/input/nva2_24.txt.in</itemPath>
+        <itemPath>IO/input/nva2_25.txt.in</itemPath>
+        <itemPath>IO/input/nva2_26.txt.in</itemPath>
+        <itemPath>IO/input/nva2_27.txt.in</itemPath>
+        <itemPath>IO/input/nva2_28.txt.in</itemPath>
+        <itemPath>IO/input/nva2_29.txt.in</itemPath>
+        <itemPath>IO/input/nva2_3.txt.in</itemPath>
+        <itemPath>IO/input/nva2_30.txt.in</itemPath>
+        <itemPath>IO/input/nva2_31.txt.in</itemPath>
+        <itemPath>IO/input/nva2_32.txt.in</itemPath>
+        <itemPath>IO/input/nva2_33.txt.in</itemPath>
+        <itemPath>IO/input/nva2_34.txt.in</itemPath>
+        <itemPath>IO/input/nva2_35.txt.in</itemPath>
+        <itemPath>IO/input/nva2_36.txt.in</itemPath>
+        <itemPath>IO/input/nva2_37.txt.in</itemPath>
+        <itemPath>IO/input/nva2_38.txt.in</itemPath>
+        <itemPath>IO/input/nva2_39.txt.in</itemPath>
+        <itemPath>IO/input/nva2_4.txt.in</itemPath>
+        <itemPath>IO/input/nva2_40.txt.in</itemPath>
+        <itemPath>IO/input/nva2_41.txt.in</itemPath>
+        <itemPath>IO/input/nva2_42.txt.in</itemPath>
+        <itemPath>IO/input/nva2_43.txt.in</itemPath>
+        <itemPath>IO/input/nva2_44.txt.in</itemPath>
+        <itemPath>IO/input/nva2_45.txt.in</itemPath>
+        <itemPath>IO/input/nva2_46.txt.in</itemPath>
+        <itemPath>IO/input/nva2_47.txt.in</itemPath>
+        <itemPath>IO/input/nva2_48.txt.in</itemPath>
+        <itemPath>IO/input/nva2_49.txt.in</itemPath>
+        <itemPath>IO/input/nva2_5.txt.in</itemPath>
+        <itemPath>IO/input/nva2_50.txt.in</itemPath>
+        <itemPath>IO/input/nva2_6.txt.in</itemPath>
+        <itemPath>IO/input/nva2_7.txt.in</itemPath>
+        <itemPath>IO/input/nva2_8.txt.in</itemPath>
+        <itemPath>IO/input/nva2_9.txt.in</itemPath>
+      </logicalFolder>
+      <logicalFolder name="output" displayName="output" projectFiles="true">
+        <itemPath>IO/output/output_nva2_10.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_11.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_12.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_13.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_14.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_15.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_16.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_17.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_18.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_3.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_4.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_5.txt.in.txt</itemPath>
+        <itemPath>IO/output/output_nva2_6.txt.in.txt</itemPath>
+      </logicalFolder>
+      <logicalFolder name="pealGraph" displayName="pealGraph" projectFiles="true">
+        <logicalFolder name="cuts" displayName="cuts" projectFiles="true">
+          <itemPath>IO/pealGraph/cuts/10.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/11.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/12.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/13.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/14.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/15.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/16.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/17.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/18.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/19.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/20.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/21.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/22.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/23.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/24.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/25.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/26.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/27.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/28.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/29.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/3.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/30.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/31.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/32.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/33.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/34.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/35.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/36.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/37.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/38.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/39.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/4.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/40.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/41.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/42.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/43.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/44.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/45.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/46.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/47.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/48.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/49.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/5.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/50.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/6.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/7.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/8.cut</itemPath>
+          <itemPath>IO/pealGraph/cuts/9.cut</itemPath>
+        </logicalFolder>
+        <itemPath>IO/pealGraph/hc.lp</itemPath>
+        <itemPath>IO/pealGraph/nva2_3.txt</itemPath>
+        <itemPath>IO/pealGraph/nva2_4.txt</itemPath>
+        <itemPath>IO/pealGraph/nva2_5.txt</itemPath>
+        <itemPath>IO/pealGraph/nva2_6.txt</itemPath>
+        <itemPath>IO/pealGraph/nva2_7.txt</itemPath>
+        <itemPath>IO/pealGraph/nva2_8.txt</itemPath>
+        <itemPath>IO/pealGraph/nva2_9.txt</itemPath>
+        <itemPath>IO/pealGraph/nva3_4.txt</itemPath>
+        <itemPath>IO/pealGraph/nva3_5.txt</itemPath>
+        <itemPath>IO/pealGraph/nva3_6.txt</itemPath>
+        <itemPath>IO/pealGraph/nva3_7.txt</itemPath>
+        <itemPath>IO/pealGraph/nva3_8.txt</itemPath>
+        <itemPath>IO/pealGraph/nva3_9.txt</itemPath>
+        <itemPath>IO/pealGraph/nva4_10.txt</itemPath>
+        <itemPath>IO/pealGraph/nva4_5.txt</itemPath>
+        <itemPath>IO/pealGraph/nva4_6.txt</itemPath>
+        <itemPath>IO/pealGraph/nva4_7.txt</itemPath>
+        <itemPath>IO/pealGraph/nva4_8.txt</itemPath>
+        <itemPath>IO/pealGraph/nva4_9.txt</itemPath>
+        <itemPath>IO/pealGraph/nva5_10.txt</itemPath>
+        <itemPath>IO/pealGraph/nva5_11.txt</itemPath>
+        <itemPath>IO/pealGraph/nva5_6.txt</itemPath>
+        <itemPath>IO/pealGraph/nva5_7.txt</itemPath>
+        <itemPath>IO/pealGraph/nva5_8.txt</itemPath>
+        <itemPath>IO/pealGraph/nva5_9.txt</itemPath>
+      </logicalFolder>
+      <logicalFolder name="pX" displayName="pX" projectFiles="true">
+        <logicalFolder name="pX_v2" displayName="pX_v2" projectFiles="true">
+          <itemPath>IO/pX/pX_v2/3_pX.txt</itemPath>
+          <itemPath>IO/pX/pX_v2/4_pX.txt</itemPath>
+          <itemPath>IO/pX/pX_v2/5_pX.txt</itemPath>
+          <itemPath>IO/pX/pX_v2/6_pX.txt</itemPath>
+          <itemPath>IO/pX/pX_v2/7_pX.txt</itemPath>
+          <itemPath>IO/pX/pX_v2/8_pX.txt</itemPath>
+        </logicalFolder>
+        <logicalFolder name="v1" displayName="v1" projectFiles="true">
+          <itemPath>IO/pX/v1/3_pX.txt</itemPath>
+          <itemPath>IO/pX/v1/4_pX.txt</itemPath>
+          <itemPath>IO/pX/v1/5_pX.txt</itemPath>
+          <itemPath>IO/pX/v1/6_pX.txt</itemPath>
+          <itemPath>IO/pX/v1/7_pX.txt</itemPath>
+          <itemPath>IO/pX/v1/8_pX.txt</itemPath>
+        </logicalFolder>
+        <logicalFolder name="v3" displayName="v3" projectFiles="true">
+          <itemPath>IO/pX/v3/3_pX.txt</itemPath>
+          <itemPath>IO/pX/v3/4_pX.txt</itemPath>
+          <itemPath>IO/pX/v3/5_pX.txt</itemPath>
+          <itemPath>IO/pX/v3/6_pX.txt</itemPath>
+          <itemPath>IO/pX/v3/7_pX.txt</itemPath>
+          <itemPath>IO/pX/v3/8_pX.txt</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="pY" displayName="pY" projectFiles="true">
+        <logicalFolder name="v3" displayName="v3" projectFiles="true">
+          <itemPath>IO/pY/v3/3_pY.txt</itemPath>
+          <itemPath>IO/pY/v3/4_pY.txt</itemPath>
+          <itemPath>IO/pY/v3/5_pY.txt</itemPath>
+          <itemPath>IO/pY/v3/6_pY.txt</itemPath>
+          <itemPath>IO/pY/v3/7_pY.txt</itemPath>
+          <itemPath>IO/pY/v3/8_pY.txt</itemPath>
+        </logicalFolder>
+        <logicalFolder name="v4" displayName="v4" projectFiles="true">
+          <itemPath>IO/pY/v4/6_pX.txt</itemPath>
+          <itemPath>IO/pY/v4/6_pY.txt</itemPath>
+          <itemPath>IO/pY/v4/7_pX.txt</itemPath>
+          <itemPath>IO/pY/v4/7_pY.txt</itemPath>
+          <itemPath>IO/pY/v4/8_pX.txt</itemPath>
+          <itemPath>IO/pY/v4/8_pY.txt</itemPath>
+          <itemPath>IO/pY/v4/9_pX.txt</itemPath>
+          <itemPath>IO/pY/v4/9_pY.txt</itemPath>
+        </logicalFolder>
+        <logicalFolder name="v5" displayName="v5" projectFiles="true">
+          <itemPath>IO/pY/v5/4_0.out</itemPath>
+          <itemPath>IO/pY/v5/4_0_1pY.txt</itemPath>
+          <itemPath>IO/pY/v5/4_0_2pY.txt</itemPath>
+          <itemPath>IO/pY/v5/4_3.out</itemPath>
+          <itemPath>IO/pY/v5/4_3_1pY.txt</itemPath>
+          <itemPath>IO/pY/v5/4_3_2pY.txt</itemPath>
+          <itemPath>IO/pY/v5/4_3pX.txt</itemPath>
+          <itemPath>IO/pY/v5/4_3pY.txt</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>IO/count_out.txt</itemPath>
+      <itemPath>IO/output.txt</itemPath>
+      <itemPath>IO/pX.txt</itemPath>
+      <itemPath>IO/pY.txt</itemPath>
+      <itemPath>IO/pealGraphCounts.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="parse" displayName="parse" projectFiles="true">
+      <itemPath>parse/clean.sh</itemPath>
+      <itemPath>parse/generate.sh</itemPath>
+      <itemPath>parse/lex.l</itemPath>
+      <itemPath>parse/parse.y</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>sources/DependenceGraph.cpp</itemPath>
+      <itemPath>sources/Rule.cpp</itemPath>
+      <itemPath>sources/Utils.cpp</itemPath>
+      <itemPath>sources/Vocabulary.cpp</itemPath>
+      <itemPath>sources/global.cpp</itemPath>
+      <itemPath>sources/lex.cpp</itemPath>
+      <itemPath>sources/main.cpp</itemPath>
+      <itemPath>sources/parse.cpp</itemPath>
+      <itemPath>sources/parse.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>IO</Elem>
+    <Elem>parse</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>headfiles</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="IO/count_out.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/3lp200" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/9inTmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/Blocksworld" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/Sokoban" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/Toast-variableWord" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/channelRouting" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/clumpy" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/hold/channelRoute3.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/hold/duthen-990602.36.steps.10.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/duthen-990602.50.steps.9.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/output_random10.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/output_random26.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/output_random9.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/random5.lp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/keep/channelRoute3.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/keep/duthen-990602.36.steps.10.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/duthen-990602.50.steps.9.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/output_random10.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/output_random26.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/output_random9.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/sokoban.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/labyin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/random" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_10.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_11.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_12.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_13.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_14.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_15.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_16.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_17.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_18.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_19.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_20.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_21.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_22.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_23.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_24.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_25.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_26.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_27.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_28.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_29.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_3.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_30.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_31.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_32.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_33.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_34.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_35.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_36.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_37.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_38.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_39.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_4.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_40.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_41.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_42.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_43.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_44.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_45.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_46.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_47.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_48.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_49.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_5.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_50.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_6.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_7.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_8.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_9.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_10.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_11.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_12.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_13.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_14.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_15.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_16.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_17.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_18.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_3.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_4.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_5.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_6.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/3_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/4_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/5_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/3_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/4_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/5_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/3_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/4_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/5_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/3_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/4_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/5_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/6_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/7_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/8_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/6_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/7_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/8_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/9_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/9_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_0.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_0_1pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_0_2pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3_1pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3_2pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/10.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/11.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/12.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/13.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/14.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/15.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/16.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/17.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/18.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/19.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/20.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/21.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/22.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/23.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/24.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/25.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/26.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/27.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/28.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/29.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/3.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/30.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/31.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/32.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/33.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/34.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/35.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/36.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/37.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/38.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/39.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/4.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/40.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/41.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/42.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/43.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/44.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/45.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/46.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/47.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/48.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/49.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/5.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/50.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/6.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/7.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/8.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/9.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/hc.lp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_10.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_10.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_11.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraphCounts.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="SourceFiles">
+        <ccTool>
+          <incDir>
+            <pElem>headfiles</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="headfiles/DependenceGraph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/Rule.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/Vocabulary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/clean.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/generate.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/lex.l" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/parse.y" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sources/DependenceGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/Rule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/Vocabulary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/lex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/parse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="IO/count_out.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/3lp200" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/9inTmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/Blocksworld" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/Sokoban" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/Toast-variableWord" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/channelRouting" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/clumpy" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/hold/channelRoute3.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/hold/duthen-990602.36.steps.10.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/duthen-990602.50.steps.9.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/output_random10.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/output_random26.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/output_random9.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/hold/random5.lp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/keep/channelRoute3.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/keep/duthen-990602.36.steps.10.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/duthen-990602.50.steps.9.asp.in"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/output_random10.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/output_random26.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/output_random9.lp.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/counts/keep/sokoban.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/labyin" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/counts/random" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_10.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_11.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_12.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_13.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_14.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_15.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_16.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_17.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_18.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_19.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_20.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_21.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_22.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_23.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_24.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_25.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_26.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_27.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_28.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_29.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_3.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_30.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_31.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_32.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_33.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_34.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_35.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_36.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_37.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_38.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_39.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_4.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_40.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_41.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_42.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_43.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_44.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_45.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_46.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_47.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_48.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_49.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_5.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_50.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_6.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_7.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_8.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/input/nva2_9.txt.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_10.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_11.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_12.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_13.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_14.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_15.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_16.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_17.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_18.txt.in.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_3.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_4.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_5.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/output/output_nva2_6.txt.in.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/3_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/4_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/5_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/pX_v2/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/3_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/4_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/5_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v1/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/3_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/4_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/5_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pX/v3/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/3_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/4_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/5_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/6_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/7_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v3/8_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/6_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/6_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/7_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/7_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/8_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/8_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/9_pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v4/9_pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_0.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_0_1pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_0_2pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3_1pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3_2pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3pX.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pY/v5/4_3pY.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/10.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/11.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/12.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/13.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/14.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/15.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/16.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/17.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/18.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/19.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/20.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/21.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/22.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/23.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/24.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/25.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/26.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/27.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/28.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/29.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/3.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/30.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/31.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/32.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/33.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/34.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/35.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/36.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/37.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/38.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/39.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/4.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/40.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/41.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/42.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/43.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/44.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/45.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/46.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/47.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/48.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/49.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/5.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/50.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/6.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/7.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/8.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/cuts/9.cut" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/hc.lp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva2_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva3_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_10.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva4_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_10.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_11.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_7.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_8.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraph/nva5_9.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IO/pealGraphCounts.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/DependenceGraph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/Rule.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/Vocabulary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headfiles/structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/clean.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/generate.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/lex.l" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parse/parse.y" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sources/DependenceGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/Rule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/Vocabulary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/lex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/parse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,52 @@
+nva2_10.txt.in
+Time        : 0.058s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_15.txt.in
+Time        : 0.874s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.020s
+
+nva2_20.txt.in
+Time        : 3.565s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.050s
+
+nva2_25.txt.in
+Time        : 10.518s (Solving: 0.01s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time    : 0.090s
+
+nva2_30.txt.in
+Time        : 26.648s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time    : 0.180s
+
+nva2_35.txt.in
+Time        : 60.926s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time    : 0.280s
+
+nva2_3.txt.in
+Time        : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_4.txt.in
+Time        : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_5.txt.in
+Time        : 0.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_6.txt.in
+Time        : 0.004s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_7.txt.in
+Time        : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_8.txt.in
+Time        : 0.016s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+
+nva2_9.txt.in
+Time        : 0.034s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+

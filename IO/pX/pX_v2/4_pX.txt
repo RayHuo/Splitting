@@ -1,0 +1,92 @@
+hc(7,6) :- not otherroute(7,6).
+hc(6,7) :- not otherroute(6,7).
+hc(7,5) :- not otherroute(7,5).
+hc(5,7) :- not otherroute(5,7).
+hc(6,5) :- not otherroute(6,5).
+hc(5,6) :- not otherroute(5,6).
+hc(7,4) :- not otherroute(7,4).
+hc(4,7) :- not otherroute(4,7).
+hc(6,4) :- not otherroute(6,4).
+hc(4,6) :- not otherroute(4,6).
+hc(5,4) :- not otherroute(5,4).
+hc(4,5) :- not otherroute(4,5).
+otherroute(7,6) :- hc(7,3).
+otherroute(7,6) :- hc(7,5).
+otherroute(7,6) :- hc(7,4).
+otherroute(6,7) :- hc(6,5).
+otherroute(6,7) :- hc(6,4).
+otherroute(7,5) :- hc(7,3).
+otherroute(7,5) :- hc(7,6).
+otherroute(7,5) :- hc(7,4).
+otherroute(5,7) :- hc(5,6).
+otherroute(5,7) :- hc(5,4).
+otherroute(6,5) :- hc(6,7).
+otherroute(6,5) :- hc(6,4).
+otherroute(5,6) :- hc(5,7).
+otherroute(5,6) :- hc(5,4).
+otherroute(7,4) :- hc(7,3).
+otherroute(7,4) :- hc(7,6).
+otherroute(7,4) :- hc(7,5).
+otherroute(4,7) :- hc(4,6).
+otherroute(4,7) :- hc(4,5).
+otherroute(6,4) :- hc(6,7).
+otherroute(6,4) :- hc(6,5).
+otherroute(4,6) :- hc(4,7).
+otherroute(4,6) :- hc(4,5).
+otherroute(5,4) :- hc(5,7).
+otherroute(5,4) :- hc(5,6).
+otherroute(4,5) :- hc(4,7).
+otherroute(4,5) :- hc(4,6).
+otherroute(7,6) :- hc(5,6).
+otherroute(7,6) :- hc(4,6).
+otherroute(6,7) :- hc(5,7).
+otherroute(6,7) :- hc(4,7).
+otherroute(7,5) :- hc(6,5).
+otherroute(7,5) :- hc(4,5).
+otherroute(5,7) :- hc(6,7).
+otherroute(5,7) :- hc(4,7).
+otherroute(6,5) :- hc(7,5).
+otherroute(6,5) :- hc(4,5).
+otherroute(5,6) :- hc(7,6).
+otherroute(5,6) :- hc(4,6).
+otherroute(7,4) :- hc(2,4).
+otherroute(7,4) :- hc(6,4).
+otherroute(7,4) :- hc(5,4).
+otherroute(4,7) :- hc(6,7).
+otherroute(4,7) :- hc(5,7).
+otherroute(6,4) :- hc(2,4).
+otherroute(6,4) :- hc(7,4).
+otherroute(6,4) :- hc(5,4).
+otherroute(4,6) :- hc(7,6).
+otherroute(4,6) :- hc(5,6).
+otherroute(5,4) :- hc(2,4).
+otherroute(5,4) :- hc(7,4).
+otherroute(5,4) :- hc(6,4).
+otherroute(4,5) :- hc(7,5).
+otherroute(4,5) :- hc(6,5).
+reached(4) :- hc(2,4),reached(2).
+reached(7) :- hc(4,7),reached(4).
+reached(6) :- hc(4,6),reached(4).
+reached(5) :- hc(4,5),reached(4).
+reached(7) :- hc(5,7),reached(5).
+reached(6) :- hc(5,6),reached(5).
+reached(4) :- hc(5,4),reached(5).
+reached(7) :- hc(6,7),reached(6).
+reached(5) :- hc(6,5),reached(6).
+reached(4) :- hc(6,4),reached(6).
+reached(6) :- hc(7,6),reached(7).
+reached(5) :- hc(7,5),reached(7).
+reached(4) :- hc(7,4),reached(7).
+hc(2,4) :- not _hc(2,4).
+_hc(2,4) :- not hc(2,4).
+hc(7,3) :- not _hc(7,3).
+_hc(7,3) :- not hc(7,3).
+reached(2) :- not _reached(2).
+_reached(2) :- not reached(2).
+hc(2,4).
+hc(7,3).
+reached(2).
+:- not reached(4).
+:- not reached(5).
+:- not reached(6).
+:- not reached(7).
